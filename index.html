@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+    </style>
+    <title>Magic Notes</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>Magic Notes</h2>
+        <ul>
+            <li class="thisPage"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div id="search" class="search">
+            <input type="text" placeholder="Search Notes" id="searchBox">
+            <button class="searchButton">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Welcome to Magic Notes</h1>
+        <div class="newNote">
+            <h4>Add a Note</h4>
+            <textarea id="noteText" cols="" rows="3"></textarea>
+            <button class="addNote" id="addNote">Add Note</button>
+        </div>
+        <h1>Your Notes</h1>
+        <div class="Notes" id="Notes">
+            <!-- adding notes through JS  -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
